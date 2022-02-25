@@ -1,6 +1,6 @@
 # password-homework
 # Link
-https://github.com/natalietriffo/password-homework.git
+ https://natalietriffo.github.io/password-homework/
 # Purpose 
 learning to create pop-ups with password generation using if statments, variables, and funcations in javascript.
 # Screenshot
