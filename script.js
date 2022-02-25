@@ -40,12 +40,12 @@ function generatePassword() {
 
   var newpassword = "";
 
-  while (newpassword.length <= userpasswordlength)
+  while (newpassword.length <= userpasswordlength){
     if (numbers) {
       i = getrandom(nu.length);
-      newpassword = newpassword = nu[i];
+      newpassword = newpassword + nu[i];
     }
-  if (specialcharacters) {
+  if (specialchacters) {
     i = getrandom(sc.length);
     newpassword = newpassword + sc[i];
   }
@@ -59,7 +59,7 @@ function generatePassword() {
     i = getrandom(lcl.length);
     newpassword = newpassword + lcl[i]
   }
-
+  }
   console.log(newpassword)
   return newpassword
 
